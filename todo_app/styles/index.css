@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.slogan-section{
+    display: flex;
+    margin: 10%;
+}
+.slogan{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}

@@ -2,9 +2,13 @@
 {% load static %}
 
 {% block head %}
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="{% static 'index.css' %}">
 {% endblock head %}
 
 {% block main %}
-
+<main>
+    <section class="slogan-section">
+        <h1 class="slogan">Structure your time...<br>for a better tomorrow</h1>
+    </section>
+</main>
 {% endblock main %}
