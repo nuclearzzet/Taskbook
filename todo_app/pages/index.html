@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TaskBook</title>
+        <link rel="stylesheet" href="{% static 'index.css' %}">
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <h1 id="logo">TaskBook</h1>
+                <ul id="navbar-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="{% url 'signup' %}"><button type="button">Sign Up</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="slogan-box">
+                <h1 id="slogan">Structure your time...<br>for a better tomorrow</h1>
+            </section>
+        </main>
+    </body>
+</html>

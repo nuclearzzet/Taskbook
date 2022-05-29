@@ -3,4 +3,4 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def signup(request):
-    return HttpResponse('<h1></h1>')
+    return HttpResponse("<h1>Register</h1>")

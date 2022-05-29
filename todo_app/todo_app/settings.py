@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 #imports
 import os
 
+AUTH_USER_MODEL = "accounts.Account"
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -58,7 +60,7 @@ ROOT_URLCONF = 'todo_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ BASE_DIR / 'html'],
+        'DIRS': [ BASE_DIR / 'pages'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
